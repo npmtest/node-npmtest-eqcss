@@ -1,4 +1,7 @@
-# test coverage for  [eqcss (v1.6.0)](http://elementqueries.com)  [![npm package](https://img.shields.io/npm/v/npmtest-eqcss.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-eqcss) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-eqcss.svg)](https://travis-ci.org/npmtest/node-npmtest-eqcss)
+# npmtest-eqcss
+
+#### basic test coverage for  [eqcss (v1.6.0)](http://elementqueries.com)  [![npm package](https://img.shields.io/npm/v/npmtest-eqcss.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-eqcss) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-eqcss.svg)](https://travis-ci.org/npmtest/node-npmtest-eqcss)
+
 #### EQCSS is a polyfill that introduces Element Queries, Scoped CSS, selectors for parent, next, and previous elements to all browsers IE8 and up
 
 [![NPM](https://nodei.co/npm/eqcss.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/eqcss)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-eqcss/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-eqcss/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-eqcss/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-eqcss/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-eqcss/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-eqcss/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-eqcss/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-eqcss/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-eqcss/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-eqcss/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-eqcss/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-eqcss/build/coverage.html/index.html)
 
@@ -118,7 +121,8 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "version": "1.6.0"
+    "version": "1.6.0",
+    "bin": {}
 }
 ```
 
